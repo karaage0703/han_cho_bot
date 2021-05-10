@@ -43,12 +43,19 @@ $ export LD_PRELOAD=/usr/lib/aarch64-linux-gnu/libgomp.so.1
 $ python3 predict_dice_on_camera.py
 ```
 
+```sh
+$ python3 alea_jacta_est.py
+```
+
 ### Jetson Nano
 
 ```sh
 $ OPENBLAS_CORETYPE=ARMV8 python3 predict_dice_on_camera.py -d='jetson_nano_raspi_cam'
 ```
 
+```sh
+$ python3 alea_jacta_est.py
+```
 
 ## License
 This software is released under the MIT License, see LICENSE.
